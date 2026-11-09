@@ -93,6 +93,7 @@
     }
     ?>
 
+    <!-- Latihan 7 -->
     <?php
     $hasil = null;
     if ($_SERVER["REQUEST_METHOD"] === "POST") {
@@ -125,5 +126,7 @@
         echo "<p>Subtotal: Rp" . number_format($subtotal, 0, ",", ".") . "</p>";
     }
     ?>
+
+    <!-- Latihan
 </body>
 </html>
